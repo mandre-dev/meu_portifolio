@@ -62,3 +62,10 @@ nav {
     transition: background-color 0.3s ease;
     transition: transform 0.3s linear;
 }
+
+h1 {
+
+    font-family: "Silkscreen", sans-serif;
+    font-size: 40px;
+    color: darkcyan;
+    text-shadow: 2px 2px 1px rgb(0, 0, 0);

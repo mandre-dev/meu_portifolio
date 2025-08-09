@@ -1,9 +1,9 @@
-h1 {
+h2 {
 
     font-family: "Silkscreen", sans-serif;
-    font-size: 40px;
-    color: darkcyan;
+    font-weight: 40;
+    font-size: 30px;
+    color: whitesmoke;
     text-shadow: 2px 2px 1px rgb(0, 0, 0);
 
 }
-

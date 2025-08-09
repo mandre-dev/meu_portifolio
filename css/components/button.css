@@ -1,0 +1,21 @@
+.button {
+
+    display: inline-block;
+    font-family: "VT323", sans-serif;
+    font-size: 20px;
+    background-color: dimgrey;
+    color: #fff;
+    padding: 18px 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px black;
+    transition: transform 0.3s linear;
+    text-decoration: none;
+}f
+
+.button:hover {
+
+    background-color: darkslategray;
+    transform: scale(1.05);
+    transition: background-color 0.3s ease;
+    transition: transform 0.3s linear;
+}

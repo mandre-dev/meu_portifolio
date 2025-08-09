@@ -52,5 +52,12 @@ nav {
     padding: 18px 20px;
     border-radius: 10px;
     box-shadow: 5px 5px 5px black;
+    transition: background-color 0.3s ease;
+
+}
+
+#button:hover {
+
+    background-color: darkslategray;
     
 }

@@ -2,8 +2,9 @@ h1 {
 
     font-family: "Silkscreen", sans-serif;
     font-size: 40px;
-    color: darkcyan;
+    color: rgba(0, 255, 255, 0.74);
     text-shadow: 2px 2px 1px rgb(0, 0, 0);
+    margin: 0px;
 
 }
 

@@ -1,0 +1,20 @@
+.action {
+    display: inline-flex;
+    align-items: center;
+    color: #fff;
+    font-size: 20px;
+    font-family: "VT323", sans-serif;
+    text-decoration: none;
+    margin-right: 30px;
+
+}
+
+.action::before {
+
+    content: "";
+    background-color:black;
+    width: 6px;
+    height: 6px;
+    margin-right: 5px;
+
+}

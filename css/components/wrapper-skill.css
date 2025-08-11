@@ -1,0 +1,27 @@
+.wrapper-skill {
+    display: grid;
+    grid-template-columns: repeat(2, auto); /* duas colunas com largura automática */
+    gap: 40px 80px; /* espaço entre linhas e colunas */
+    justify-content: center; /* centraliza as colunas */
+    max-width: 960px;
+    margin: 50px auto 0; 
+}
+
+.wrapepr-skill .skill-tec {
+
+    width: 430px;
+    margin:auto;
+
+}
+
+.wrapper-skill .skill-tec.-space {
+
+    margin-right: 100px;
+
+}
+
+.wrapepr-skill .skill-tec {
+
+    width: 320px;
+    
+}

@@ -1,4 +1,4 @@
-.button {
+.main-button {
 
     display: inline-block;
     font-family: "VT323", sans-serif;
@@ -12,7 +12,7 @@
     text-decoration: none;
 }
 
-.button:hover {
+.main-button:hover {
 
     background-color: darkslategray;
     transform: scale(1.05);

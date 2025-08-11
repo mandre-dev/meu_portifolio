@@ -16,3 +16,8 @@
     border-radius: 50%;
 
 }
+
+.card-project.-blue {
+
+    background-color: blue;  
+}

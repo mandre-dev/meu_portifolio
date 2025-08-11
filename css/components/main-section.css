@@ -1,4 +1,4 @@
-.section {
+.main-section {
 
     background-color: cadetblue;
     padding-top: 50px;
@@ -7,7 +7,7 @@
 
 }
 
-.section.-bgother {
+.main-section.-bgother {
 
     background-color: teal;
 

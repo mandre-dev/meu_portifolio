@@ -7,8 +7,14 @@
 
 }
 
-.main-section.-bgother {
+.main-section.-bgproject {
 
     background-color: teal;
+
+}
+
+.main-section.-bgabout {
+
+    background-color: lightseagreen;
 
 }

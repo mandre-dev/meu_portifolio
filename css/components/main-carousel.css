@@ -1,9 +1,23 @@
 .main-carousel {
 
+    display: flex;
+    justify-content: space-around;
     position: relative;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 85px;
+    padding-right: 85px;
 
+}
+
+.main-carousel::after {
+
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 40px;
+    display: block;
+    height: 5px;
+    width: 100%;
+    background-color: black;
 }
 
 .main-carousel .button-arrow {

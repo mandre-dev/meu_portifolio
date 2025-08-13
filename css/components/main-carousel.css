@@ -12,12 +12,23 @@
 
     content: "";
     position: absolute;
-    left: 0;
-    top: 40px;
+    left: 50px;
+    top: 38px;
     display: block;
-    height: 5px;
-    width: 100%;
+    height: 4px;
+    width: calc(100% - 100px);
     background-color: black;
+}
+
+.main-carousel::before {
+
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 38.2px;
+    display: block;
+    border: 2.5px dashed black;
+    width: 100%;
 }
 
 .main-carousel .button-arrow {

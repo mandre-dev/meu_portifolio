@@ -1,0 +1,23 @@
+.main-footer {
+
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    padding-top: 28px;
+    padding-bottom: 28px;
+
+}
+
+.main-footer .action {
+
+    margin-right: 20px;
+    margin-left: 20px;
+
+}
+
+.main-footer .action img {
+    width: 45px;
+    height: 45px;
+    object-fit: cover;
+
+}

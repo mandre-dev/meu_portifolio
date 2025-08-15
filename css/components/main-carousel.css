@@ -15,7 +15,7 @@
     left: 50px;
     top: 38px;
     display: block;
-    height: 4px;
+    height: 5px;
     width: calc(100% - 100px);
     background-color: black;
 }

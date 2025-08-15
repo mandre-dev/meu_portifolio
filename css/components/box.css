@@ -1,9 +1,10 @@
 .box {
     display: inline-block;
-    background-color: darkslategray;
-    box-shadow: 5px 5px 4px #ffffff36;
+    background-color: #095C5C;
+    box-shadow: 5px 5px 4px black;
     text-align: center;
     padding: 24px 24px; 
+    border-radius: 6px;
 }
 
 .box .title  {

@@ -1,6 +1,6 @@
 .main-section {
 
-    background-color: cadetblue;
+    background-color: #1AABAB;
     padding-top: 50px;
     padding-bottom: 50px;
     border-bottom: 10px solid darkslategray;
@@ -9,12 +9,12 @@
 
 .main-section.-bgproject {
 
-    background-color: teal;
+    background-color: #118282;
 
 }
 
 .main-section.-bgabout {
 
-    background-color: lightseagreen;
+    background-color: #095C5C;
 
 }

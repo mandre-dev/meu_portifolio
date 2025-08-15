@@ -7,6 +7,7 @@
     width: 280px;
     height: 280px;
     box-shadow: 10px 10px 10px black;
+    border-radius: 10px;
 }
 
 .card-project .logo {
@@ -17,7 +18,7 @@
 
 }
 
-.card-project.-blue {
+.card-project._blue {
 
     background-color: blue;  
 }

@@ -3,7 +3,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: darkgray;
+    background-color: dimgray;
     width: 280px;
     height: 280px;
     box-shadow: 10px 10px 10px black;
@@ -16,9 +16,4 @@
     height: 260px;
     border-radius: 50%;
 
-}
-
-.card-project._blue {
-
-    background-color: blue;  
 }

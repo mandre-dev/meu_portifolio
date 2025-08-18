@@ -37,6 +37,18 @@
     position: absolute;
     bottom: 70px;
     transform: translateY(50%);
+    transition: transform 0.3s ease; /* animação suave */
+    cursor: pointer;
+
+}
+
+.main-carousel .button-arrow:hover {
+    transform: translateY(50%) scale(1.2); /* aumenta o tamanho em 20% */
+}
+
+.main-carousel .button-arrow:active {
+    transform: translateY(50%) scale(0.9);
+    transition: transform 0.1s ease; /* mais rápido no clique */
 }
 
 .main-carousel .button-arrow._left {

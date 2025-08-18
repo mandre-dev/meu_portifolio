@@ -18,3 +18,14 @@
     margin-right: 5px;
 
 }
+
+.navigation {
+
+    text-decoration: none;
+    transition: all 0.3s ease;
+
+}
+
+.navigation a:hover {
+    text-decoration: underline;
+}

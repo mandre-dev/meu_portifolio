@@ -12,6 +12,7 @@
 
     margin-right: 20px;
     margin-left: 20px;
+    
 
 }
 
@@ -19,5 +20,17 @@
     width: 45px;
     height: 45px;
     object-fit: cover;
+    transition: transform 0.3s ease; /* animação suave */
+    cursor: pointer;
 
+}
+
+.main-footer .action img:hover {
+    transform: scale(1.2); /* aumenta o tamanho */
+    filter: brightness(1.2); /* deixa um pouco mais claro */
+}
+
+.main-footer .action img:active {
+    transform: scale(0.9); /* dá um "clique" encolhendo */
+    filter: brightness(0.8);
 }

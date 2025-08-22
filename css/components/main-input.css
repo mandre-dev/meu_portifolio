@@ -1,5 +1,4 @@
 .main-input {
-
     box-sizing: border-box;
     border: 5px solid black;
     font-size: 30px;
@@ -7,29 +6,23 @@
     width: 100%;
     padding-left: 5px;
     padding-right: 5px;
-
-}
-
-.main-input:focus, .main-input._textarea:focus {
-
-    border-color: black !important;
-
-}
-
-.main-input:invalid, .main-input._textarea:invalid {
-
-    border-color: red;
-
-}
-
-.main-input:valid, .main-input._textarea:valid {
-
-    border-color: black;
-
 }
 
 .main-input._textarea {
-
     height: 320px;
+}
 
+/* black standard */
+.main-input, .main-input._textarea {
+    border-color: black;
+}
+
+/* focus and invalid */
+.main-input:focus:invalid, .main-input._textarea:focus:invalid {
+    border-color: red;
+}
+
+/* focus and valid */
+.main-input:valid, .main-input:focus:valid, .main-input._textarea:valid, .main-input._textarea:focus:valid {
+    border-color: black;
 }

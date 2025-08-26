@@ -3,7 +3,7 @@
     box-sizing: border-box;
     background-image: url(../../assets/img/me.jpeg);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 100% 100%;
     height: 800px;
     border-bottom: 10px solid darkslategray;
     padding-top: 115px;

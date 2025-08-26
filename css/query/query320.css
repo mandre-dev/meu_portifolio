@@ -19,15 +19,21 @@
         flex-direction: column;
         gap: 10px;
     }
+
+    .main-header .main-button.downloadCV {
+
+        margin-top: 10px;
+        
+    }
     
     .main-header .main-action,
     .main-header .main-button {
-        width: 100%;
         text-align: center;
-        margin: 5px 0;
+        margin: 3px 0;
     }
     
     /* Banner - Ajustes para mobile */
+    
     .main-banner {
         height: 400px;
         padding-top: 60px;

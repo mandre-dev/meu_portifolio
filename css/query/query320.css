@@ -1,172 +1,234 @@
 /* Media Queries para telas até 320px */
 @media (max-width: 320px) {
-    
-    /* Header - Ajustes para mobile */
-    .main-header {
-        flex-direction: column;
-        padding: 10px;
-        text-align: center;
-    }
-    
-    .main-header img {
-        width: 60px;
-        height: 60px;
-        margin-right: 0;
-        margin-bottom: 15px;
-    }
-    
-    .main-header .navigation {
-        flex-direction: column;
-        gap: 10px;
-    }
+  /* Header - Ajustes para mobile */
+  .main-header {
+    flex-direction: column;
+    padding: 10px;
+    text-align: center;
+  }
 
-    .main-header .main-button.downloadCV {
+  .main-header img {
+    width: 60px;
+    height: 60px;
+    margin-right: 0;
+    margin-bottom: 15px;
+  }
 
-        margin-top: 10px;
-        
-    }
-    
-    .main-header .main-action,
-    .main-header .main-button {
-        text-align: center;
-        margin: 3px 0;
-    }
-    
-    /* Banner - Ajustes para mobile */
-    
-    .main-banner {
-        height: 400px;
-        padding-top: 60px;
-        padding-left: 20px;
-        background-size: cover;
-        background-position: center;
-    }
-    
-    .main-banner .wrapper {
-        width: 100%;
-        max-width: 280px;
-    }
-    
-    .main-banner .box {
-        margin-bottom: 20px;
-    }
-    
-    .main-banner .navigation {
-        flex-direction: column;
-        gap: 10px;
-    }
-    
-    .main-banner .main-button {
-        width: 100%;
-        text-align: center;
-    }
-    
-    /* Skills - Mudar grid para 1 coluna */
-    .wrapper-skill {
-        grid-template-columns: 1fr;
-        gap: 20px;
-        padding: 0 10px;
-    }
-    
-    .wrapper-skill .skill-tec {
-        width: 100%;
-        margin: 0 auto;
-    }
-    
-    .wrapper-skill .skill-tec.-space {
-        margin-right: 0;
-    }
-    
-    /* Projects - Ajustar cards */
-    .wrapper-card {
-        flex-direction: column;
-        gap: 20px;
-        padding: 0 10px;
-    }
-    
-    .card-project {
-        width: 100%;
-        max-width: 280px;
-        margin: 0 auto;
-    }
-    
-    /* Seções principais */
-    .main-section {
-        padding: 30px 10px;
-    }
-    
-    .main-title {
-        font-size: 1.8rem;
-        text-align: center;
-    }
-    
-    .main-title._second {
-        font-size: 1.5rem;
-    }
-    
-    .main-subtitle {
-        font-size: 1.2rem;
-        text-align: center;
-    }
-    
-    /* Carousel */
-    .main-carousel {
-        padding: 0 10px;
-    }
-    
-    .node-card {
-        width: 100%;
-        max-width: 280px;
-        margin: 0 auto;
-    }
-    
-    /* Formulário */
-    .main-form {
-        padding: 30px 15px;
-    }
-    
-    .main-label {
-        font-size: 0.9rem;
-    }
-    
-    .main-input {
-        width: 100%;
-        box-sizing: border-box;
-    }
-    
-    .main-input._textarea {
-        min-height: 100px;
-    }
-    
-    .main-button._full {
-        width: 100%;
-    }
-    
-    /* Footer */
-    .main-footer {
-        padding: 20px 10px;
-    }
-    
-    .main-footer .action img {
-        width: 30px;
-        height: 30px;
-    }
-    
-    /* Descrição */
-    .main-description {
-        padding: 0 10px;
-        font-size: 0.9rem;
-        line-height: 1.4;
-        text-align: center;
-    }
-    
-    /* Garantir que todos os elementos ocupem 100% da largura */
-    body, html {
-        width: 100%;
-        overflow-x: hidden;
-    }
-    
-    * {
-        box-sizing: border-box;
-    }
+  .main-header .navigation {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .main-header .main-button.downloadCV {
+    margin-top: 10px;
+  }
+
+  .main-header .main-action,
+  .main-header .main-button {
+    text-align: center;
+    margin: 3px 0;
+    font-size: 14px; /* Reduzido de 14px */
+    padding: 8px 12px; /* Reduzido de 8px 16px */
+  }
+
+  /* Banner - Ajustes para mobile */
+
+  .main-banner {
+    height: 400px;
+    padding-top: 60px;
+    padding-left: 20px;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .main-banner .wrapper {
+    width: 100%;
+    max-width: 280px;
+  }
+
+  .main-banner .box {
+    margin-bottom: 20px;
+  }
+
+  .main-banner .navigation {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .main-banner .main-button {
+    width: 100%;
+    text-align: center;
+  }
+
+  /* Skills - Mudar grid para 1 coluna */
+  .wrapper-skill {
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 0 10px;
+  }
+
+  .wrapper-skill .skill-tec {
+    width: 100%;
+    font-size: 20px;
+    margin: 0 auto;
+  }
+
+  .wrapper-skill .skill-tec .title {
+    font-size: 25px;
+  }
+
+  .wrapper-skill .skill-tec.-space {
+    margin-right: 0;
+  }
+
+  /* Projects - Ajustar cards */
+  .wrapper-card {
+    flex-direction: column;
+    gap: 20px;
+    padding: 0 10px;
+  }
+
+  .card-project {
+    width: 100%;
+    max-width: 280px;
+    margin: 0 auto;
+  }
+
+  /* Seções principais */
+  .main-section {
+    padding: 30px 10px;
+  }
+
+  .main-title {
+    font-size: 1.8rem;
+    text-align: center;
+  }
+
+  .main-title._second {
+    font-size: 1.5rem;
+  }
+
+  .main-subtitle {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+
+  /* Carousel */
+  .main-carousel {
+    padding: 0 10px;
+  }
+
+  .items {
+    overflow: hidden; /* Adicionado para limitar a visibilidade */
+    position: relative; /* Para posicionar os botões corretamente */
+    pointer-events: auto; /* Garante que os eventos de clique funcionem */
+  }
+
+  .main-carousel .button-arrow {
+    position: absolute; /* Para posicionar os botões */
+    top: 50%; /* Centraliza verticalmente */
+    transition: none; /* Remove qualquer efeito de transformação */
+    z-index: 10; /* Adicionado para garantir que fique na frente */
+  }
+
+  .main-carousel .button-arrow._left {
+    left: 10px; /* Ajuste conforme necessário */
+  }
+
+  .main-carousel .button-arrow._right {
+    right: 10px; /* Ajuste conforme necessário */
+  }
+
+  .node-card {
+    width: 100%;
+    max-width: 240px; /* Reduzido de 280px para 240px */
+    margin: 0 auto;
+  }
+
+  .node-card .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px; /* Reduzido de 120px para 100px */
+    width: 100px; /* Reduzido de 120px para 100px */
+    padding: 0px;
+    border: 5px solid black;
+    margin: 0 auto;
+  }
+
+  .node-card .logo img {
+    width: 100%; /* Aumentado de 80% para 100% */
+    height: 100%; /* Aumentado de 80% para 100% */
+    object-fit: cover; /* Alterado de contain para cover para preencher todo o espaço */
+  }
+
+  /* Formulário */
+  .main-form {
+    padding: 30px 15px;
+  }
+
+  .main-label {
+    font-size: 1.3rem;
+  }
+
+  .main-input {
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 20px;
+  }
+
+  .main-input._textarea {
+    min-height: 100px;
+  }
+
+  .main-button._full {
+    width: 100%;
+  }
+
+  /* Footer */
+  .main-footer {
+    padding: 20px 10px;
+  }
+
+  .main-footer .action img {
+    width: 30px;
+    height: 30px;
+  }
+
+  /* Descrição */
+  .main-description {
+    padding: 0 10px;
+    font-size: 0.9rem;
+    line-height: 1.4;
+    text-align: justify;
+  }
+
+  /* Garantir que todos os elementos ocupem 100% da largura */
+  body,
+  html {
+    width: 100%;
+    overflow-x: hidden;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  /* Botões de seta menores */
+  .main-carousel .button-arrow {
+    width: 30px; /* Reduzido de 35px */
+    height: 30px; /* Reduzido de 35px */
+  }
+
+  .button-arrow::before {
+    width: 10px; /* Reduzido de 15px */
+    height: 10px; /* Reduzido de 15px */
+    border: 10px solid transparent; /* Reduzido de 15px */
+    border-left: 18px solid white; /* Reduzido de 28px */
+    transform: translatex(4px); /* Ajustado de 6px */
+  }
+
+  .button-arrow._left::before {
+    transform: rotate(180deg) translatex(8px); /* Ajustado de 12px */
+  }
 }

@@ -1,0 +1,12 @@
+@media (max-width: 320px) {
+/* Footer */
+  .main-footer {
+    padding: 20px 10px;
+  }
+
+  .main-footer .action img {
+    width: 30px;
+    height: 30px;
+  }
+
+}

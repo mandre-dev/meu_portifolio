@@ -1,0 +1,80 @@
+/* ===== SISTEMA RESPONSIVO PROPORCIONAL ===== */
+/* Breakpoints: 320px, 480px, 768px, 1024px, 1200px */
+
+/* ===== VARIÁVEIS DE ESCALA ===== */
+:root {
+  --scale-factor: 1;
+  --font-scale: 1;
+  --spacing-scale: 1;
+}
+
+/* ===== PREVENÇÃO DE SCROLLS INDESEJADOS E LACUNAS BRANCAS ===== */
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  width: 100%;
+  max-width: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* ===== ELIMINAÇÃO DE LACUNAS BRANCAS EM ELEMENTOS ===== */
+.main-banner,
+.main-section,
+.main-form,
+.main-footer {
+  overflow: hidden;
+}
+
+/* ===== CORREÇÃO DE LACUNAS BRANCAS ===== */
+.main-section {
+  width: 100vw;
+  margin-left: calc(-50vw + 50%);
+  margin-right: calc(-50vw + 50%);
+}
+
+.main-form {
+  width: 100vw;
+  margin-left: calc(-50vw + 50%);
+  margin-right: calc(-50vw + 50%);
+}
+
+/* ===== OTIMIZAÇÃO PARA DISPOSITIVOS MÓVEIS ===== */
+@media (max-width: 480px) {
+  .main-banner .wrapper,
+  .wrapper-skill,
+  .wrapper-card,
+  .main-carousel .items {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  
+  .skill-tec,
+  .card-project {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+/* ===== REGRAS ADICIONAIS PARA ELIMINAR SCROLLS ===== */
+@media (max-width: 768px) {
+  body {
+    overflow-x: hidden;
+  }
+  
+  .main-header,
+  .main-banner,
+  .main-section,
+  .main-form,
+  .main-footer {
+    overflow-x: hidden;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+}

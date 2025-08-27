@@ -8,34 +8,6 @@
     z-index: 1000; /* Garante que o cabeçalho fique acima de outros elementos */
 }
 
-
-
-.wrapper-card {
-    max-width: 90%; /* Define a largura máxima do wrapper-card */
-    margin: 0 auto; /* Centraliza o wrapper-card */
-}
-
-.skill-tec .icon {
-
-    margin-right: 9px;
-
-}
-
-.card-project {
-    max-width: 250px; /* Define a largura máxima de cada card-project */
-    margin: 0 auto; /* Centraliza cada card-project */
-    transform: scale(0.9); /* Reduz o tamanho do card em 10% */
-}
-
-.card-project .logo {
-
-    width: 220px;
-    height: 220px;
-    border-radius: 50%;
-
-}
-
-
 }
 
 

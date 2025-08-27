@@ -1,4 +1,4 @@
-@media (max-width: 768px) {
+@media (max-width: 769px) {
 
 .main-header {
     width: 100%; /* Preenche toda a largura da tela */
@@ -8,10 +8,7 @@
     z-index: 1000; /* Garante que o cabeçalho fique acima de outros elementos */
 }
 
-.main-banner {
-    width: 100%; /* Garante que o banner ocupe toda a largura da tela */
-    padding-left: 0; /* Remove o padding para centralizar o conteúdo */
-}
+
 
 .wrapper-card {
     max-width: 90%; /* Define a largura máxima do wrapper-card */

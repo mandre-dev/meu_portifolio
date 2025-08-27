@@ -1,49 +1,41 @@
 .node-card {
-    
-    display: inline-flex;
-    flex-direction: column;
-    align-items: center;
-    position: relative;
-    overflow: hidden;
-
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
 }
 
 .node-card::before {
-
-    content:"";
-    position: absolute;
-    box-sizing: border-box;
-    height: 0px;
-    width: 40px;
-    border: 2.5px dashed black;
-    transform: rotate(90deg) translateX(-62%);
-    bottom: 140px;
+  content: "";
+  position: absolute;
+  box-sizing: border-box;
+  height: 0px;
+  width: 40px;
+  border: 2.5px dashed black;
+  transform: rotate(90deg) translateX(-62%);
+  bottom: 140px;
 }
 
 .node-card .title {
-
-    font-family: "Silkscreen", sans-serif;
-    font-size: 25px;
-    font-weight: 400;
-    color: black;
-    margin-bottom: 50px;
-
+  font-family: "Silkscreen", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  color: black;
+  margin-bottom: 50px;
 }
 
 .node-card .logo {
-
-    display: flex;
-    align-items: center;
-    height: 140px;
-    padding-left: 0px; /* era 20px */
-    padding-right: 0px; /* era 20px */
-    border: 5px solid black;    
+  display: flex;
+  align-items: center;
+  height: 140px;
+  padding-left: 0px; /* era 20px */
+  padding-right: 0px; /* era 20px */
+  border: 5px solid black;
 }
 
 .node-card .logo img {
-
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }

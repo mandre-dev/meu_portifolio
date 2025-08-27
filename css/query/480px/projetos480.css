@@ -1,0 +1,13 @@
+@media (max-width: 480px) {
+
+.card-project {
+    width: calc(250px * var(--scale-factor));
+    height: calc(180px * var(--scale-factor));
+  }
+
+  .card-project .logo {
+    max-width: 80%;
+    max-height: 80%;
+  }
+
+}

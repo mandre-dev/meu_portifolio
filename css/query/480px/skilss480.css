@@ -1,0 +1,26 @@
+@media (max-width: 480px) {
+
+.main-section {
+    padding-top: calc(20px * var(--spacing-scale));
+    padding-bottom: calc(20px * var(--spacing-scale));
+  }
+
+  .main-title._second {
+    font-size: calc(1.8rem * var(--font-scale));
+    margin-bottom: calc(20px * var(--spacing-scale));
+  }
+  
+  .skill-tec {
+    padding: calc(15px * var(--spacing-scale));
+  }
+
+  .skill-tec .icon {
+    width: calc(40px * var(--scale-factor));
+    height: calc(40px * var(--scale-factor));
+  }
+
+  .skill-tec .title {
+    font-size: calc(1rem * var(--font-scale));
+  }
+
+}

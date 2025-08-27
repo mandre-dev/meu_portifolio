@@ -1,0 +1,27 @@
+@media (max-width: 480px) {
+
+.main-carousel {
+    padding: calc(15px * var(--spacing-scale));
+  }
+
+  .node-card {
+    width: calc(100px * var(--scale-factor));
+    height: calc(100px * var(--scale-factor));
+  }
+
+  .node-card .title {
+    font-size: calc(0.8rem * var(--font-scale));
+  }
+
+  .button-arrow {
+    width: calc(40px * var(--scale-factor));
+    height: calc(40px * var(--scale-factor));
+  }
+  
+  .main-description {
+    font-size: calc(0.9rem * var(--font-scale));
+    padding: 0 calc(15px * var(--spacing-scale));
+    text-align: justify;
+  }
+
+}

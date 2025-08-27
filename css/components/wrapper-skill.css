@@ -1,93 +1,27 @@
 .wrapper-skill {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 40px 80px;
-    justify-content: center;
-    align-items: center;
+    grid-template-columns: repeat(2, auto); /* duas colunas com largura automática */
+    gap: 40px 80px; /* espaço entre linhas e colunas */
+    justify-content: center; /* centraliza as colunas */
     max-width: 960px;
-    margin: 50px auto 0;
-    padding: 0 20px;
-    box-sizing: border-box;
+    margin: 50px auto 0; 
 }
 
 .wrapper-skill .skill-tec {
+
     width: 430px;
-    margin: 0 auto;
-    transition: all 0.3s ease;
+    margin:auto;
+
 }
 
 .wrapper-skill .skill-tec.-space {
+
     margin-right: 100px;
+
 }
 
-/* Responsividade integrada com o sistema de escala */
-@media (max-width: 1200px) {
-    .wrapper-skill {
-        gap: calc(40px * var(--spacing-scale)) calc(80px * var(--spacing-scale));
-        max-width: calc(960px * var(--scale-factor));
-    }
-    
-    .wrapper-skill .skill-tec {
-        width: calc(430px * var(--scale-factor));
-    }
-    
-    .wrapper-skill .skill-tec.-space {
-        margin-right: calc(100px * var(--spacing-scale));
-    }
-}
+.wrapper-skill .skill-tec {
 
-@media (max-width: 1024px) {
-    .wrapper-skill {
-        gap: calc(30px * var(--spacing-scale)) calc(60px * var(--spacing-scale));
-        max-width: calc(900px * var(--scale-factor));
-    }
+    width: 320px;
     
-    .wrapper-skill .skill-tec {
-        width: calc(400px * var(--scale-factor));
-    }
-    
-    .wrapper-skill .skill-tec.-space {
-        margin-right: calc(80px * var(--spacing-scale));
-    }
-}
-
-@media (max-width: 768px) {
-    .wrapper-skill {
-        grid-template-columns: 1fr;
-        gap: calc(20px * var(--spacing-scale));
-        max-width: 100%;
-        padding: 0 calc(15px * var(--spacing-scale));
-    }
-    
-    .wrapper-skill .skill-tec {
-        width: 100%;
-        max-width: calc(400px * var(--scale-factor));
-    }
-    
-    .wrapper-skill .skill-tec.-space {
-        margin-right: 0;
-        margin-bottom: calc(20px * var(--spacing-scale));
-    }
-}
-
-@media (max-width: 480px) {
-    .wrapper-skill {
-        gap: calc(15px * var(--spacing-scale));
-        padding: 0 calc(10px * var(--spacing-scale));
-    }
-    
-    .wrapper-skill .skill-tec {
-        max-width: calc(350px * var(--scale-factor));
-    }
-}
-
-@media (max-width: 320px) {
-    .wrapper-skill {
-        gap: calc(8px * var(--spacing-scale));
-        padding: 0 calc(5px * var(--spacing-scale));
-    }
-    
-    .wrapper-skill .skill-tec {
-        max-width: calc(300px * var(--scale-factor));
-    }
 }

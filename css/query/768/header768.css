@@ -1,0 +1,13 @@
+@media (max-width: 769px) {
+
+.main-header {
+    width: 100%; /* Preenche toda a largura da tela */
+    padding: 0; /* Remove o padding para evitar cortes nas bordas */
+    box-sizing: border-box; /* Garante que bordas e padding sejam incluídos na largura total */
+    position: relative; /* Para posicionamento adequado */
+    z-index: 1000; /* Garante que o cabeçalho fique acima de outros elementos */
+}
+
+}
+
+

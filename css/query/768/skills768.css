@@ -1,0 +1,21 @@
+@media (max-width: 769px) {
+
+.main-section .wrapper-skill {
+    gap: 10px 10px;
+    margin-left: -20px;
+}
+
+.main-section .wrapper-skill .skill-tec {
+    position: static;
+    left: 15px;
+}
+
+.main-section .wrapper-skill .skill-tec.-space {
+    margin-right: 40px;
+}
+
+.skill-tec .icon {
+    margin-right: 9px;
+}
+
+}

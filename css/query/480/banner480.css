@@ -1,0 +1,44 @@
+@media (max-width: 481px) {
+
+.main-banner {
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px; /* Altura reduzida para melhor proporção em mobile */
+}
+
+.main-banner .wrapper {
+    width: 100%; /* Ocupa 100% da largura da tela */
+    max-width: 640px; /* Largura máxima para manter a proporção original */
+    text-align: center; /* Centraliza o texto */
+    margin: 0 auto; /* Centraliza horizontalmente */
+    display: flex; /* Adicionando flexbox para centralização */
+    flex-direction: column; /* Mantendo a direção em coluna */
+    align-items: center; /* Centraliza os itens dentro do wrapper */
+    justify-content: center; /* Centraliza verticalmente dentro do wrapper */
+}
+
+.main-banner .box {
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px; /* Largura original do box */
+}
+
+.main-banner .navigation {
+    justify-content: center; /* Centraliza os botões */
+    gap: 20px; /* Espaçamento entre os botões */
+    flex-wrap: wrap; /* Permite quebra de linha se necessário */
+}
+
+.main-banner .main-button {
+    width: 140px; /* Largura fixa para os botões */
+    padding: 15px 10px;
+    text-align: center;
+}
+
+}

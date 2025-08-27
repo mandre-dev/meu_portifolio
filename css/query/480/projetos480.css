@@ -1,0 +1,10 @@
+@media (max-width: 481px) {
+.wrapper-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centralizando novamente */
+    justify-content: flex-start;
+    gap: 15px;
+    width: 90%;
+}
+}

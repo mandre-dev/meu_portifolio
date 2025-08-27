@@ -1,16 +1,22 @@
 @media (max-width: 321px) {
 
     .node-card {
-
         margin-left: 10px;
         margin-right: 10px;
-
     }
 
-    .node-card
+    .node-card .logo {
+        height: auto; /* Remove altura fixa */
+        padding: 10px; /* Adiciona padding para melhor visualização */
+    }
 
+    .node-card .logo img {
+        width: 100%;
+        height: auto; /* Mantém proporção original */
+        object-fit: contain; /* Garante que a imagem inteira seja visível */
+    }
 
-  .main-description {
-    text-align: center;
-  }
+    .main-description {
+        text-align: center;
+    }
 }

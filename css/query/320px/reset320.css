@@ -1,0 +1,14 @@
+@media (max-width: 320px) {
+
+/* Garantir que todos os elementos ocupem 100% da largura */
+  body,
+  html {
+    width: 100%;
+    overflow-x: hidden;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+}

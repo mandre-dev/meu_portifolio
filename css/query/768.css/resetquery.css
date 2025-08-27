@@ -1,0 +1,9 @@
+/* Reset para cabeçalho em telas até 768px */
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Previne scroll horizontal */
+    box-sizing: border-box; /* Inclui padding e bordas no cálculo de largura e altura */
+}
+
+

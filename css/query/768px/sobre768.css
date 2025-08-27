@@ -1,0 +1,22 @@
+@media (max-width: 768px) {
+
+    .main-carousel {
+    padding: calc(20px * var(--spacing-scale));
+  }
+
+  .node-card {
+    width: calc(120px * var(--scale-factor));
+    height: calc(120px * var(--scale-factor));
+  }
+
+  .node-card .title {
+    font-size: calc(0.9rem * var(--font-scale));
+  }
+  
+  .main-description {
+    font-size: calc(1rem * var(--font-scale));
+    line-height: 1.5;
+    padding: 0 calc(20px * var(--spacing-scale));
+  }
+
+}

@@ -1,0 +1,25 @@
+@media (max-width: 768px) {
+  :root {
+    --scale-factor: 0.75;
+    --font-scale: 0.85;
+    --spacing-scale: 0.8;
+  }
+  
+  .main-header {
+    flex-direction: column;
+    padding: calc(15px * var(--spacing-scale));
+    gap: calc(15px * var(--spacing-scale));
+  }
+
+  .main-header img {
+    margin-right: 0;
+    width: calc(60px * var(--scale-factor));
+    height: calc(60px * var(--scale-factor));
+  }
+
+  .main-header .navigation {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: calc(10px * var(--spacing-scale));
+  }
+}

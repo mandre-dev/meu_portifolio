@@ -1,0 +1,13 @@
+@media (max-width: 321px) {
+
+    .main-banner .box {
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px; /* Largura original do box */
+    padding: 15px;
+
+}
+
+}

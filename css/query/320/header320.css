@@ -1,0 +1,16 @@
+@media (max-width: 321px) {
+  
+  .main-header .main-button.downloadCV {
+    padding: 12px 12px;
+    font-size: 18px;
+    margin: 10px 5px;
+    background-color: dimgray;
+    box-shadow: 3px 3px 3px black;
+  }
+
+  .main-header .navigation a[href="#contacts"] {
+    display: flex;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}

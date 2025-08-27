@@ -1,0 +1,10 @@
+@media (max-width: 321px) {
+
+.main-section .wrapper-skill {
+    
+        transform: scale(0.8); /* Diminuindo o tamanho geral */
+        max-width: 90%; /* Definindo uma largura máxima */
+
+  }
+
+}

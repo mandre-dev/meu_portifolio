@@ -1,22 +1,18 @@
 @media (max-width: 321px) {
+  .node-card {
+    margin: auto;
+  }
 
-    .node-card {
-        margin-left: 10px;
-        margin-right: 10px;
-    }
+  .node-card .logo {
+    height: 60px;
+    width: 60px;
+    margin: 0px;
+  }
 
-    .node-card .logo {
-        height: auto; /* Remove altura fixa */
-        padding: 10px; /* Adiciona padding para melhor visualização */
-    }
-
-    .node-card .logo img {
-        width: 100%;
-        height: auto; /* Mantém proporção original */
-        object-fit: contain; /* Garante que a imagem inteira seja visível */
-    }
-
-    .main-description {
-        text-align: center;
-    }
+  .node-card::before {
+    bottom: 60px;
+  }
+  .main-description {
+    text-align: center;
+  }
 }

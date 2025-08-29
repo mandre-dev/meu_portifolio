@@ -2,6 +2,9 @@ const nameInput = document.getElementById("name");
 const emailInput = document.getElementById("email");
 const messageInput = document.getElementById("message");
 
+
+//------------------------ Validation Form ------------------------//
+
 // Nome
 nameInput.addEventListener("invalid", function () {
     if (this.validity.valueMissing) {
@@ -37,3 +40,25 @@ messageInput.addEventListener("invalid", function () {
 messageInput.addEventListener("input", function () {
     this.setCustomValidity("");
 });
+
+//------------------------ TEST LOCAL STORAGE ------------------------//
+
+const form = document.getElementById("contacts") //take the form
+
+form.addEventListener("submit", function(e) {
+    e.preventDefault(); //prevent a page from loading
+    
+const name = nameInput.value;
+const email = emailInput.value;
+const message = messageInput.value;
+
+let saved = JSON.parse(localStorage.getItem("contatcs")) || [];// get old data or create empty array
+
+saved.push({ name, email, message }); //add new message
+
+localStorage.setItem("contacts", JSON.stringify(saved))
+
+alert("Mensagem enviada com sucesso!✅")
+form.reset(); //clear the data
+
+})

@@ -10,4 +10,35 @@
 
 }
 
+.main-banner .navigation {
+    
+    margin-top: 30px;
+}
+
+.main-banner .wrapper {
+    
+    padding-bottom: 90px;
+
+}
+
+.main-banner {
+
+    background-image: url(/assets/img/mandre.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 0;
+}
+
+.box .main-title  {
+
+    font-size: 20px;
+
+}
+
+.box .main-subtitle  {
+
+    font-size: 14px;
+}
+
 }

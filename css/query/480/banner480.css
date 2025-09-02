@@ -1,6 +1,11 @@
 @media (max-width: 481px) {
 
 .main-banner {
+    background-image: url(/assets/img/mandré.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 0;
     width: 100%;
     padding-left: 0;
     padding-right: 0;
@@ -11,10 +16,11 @@
 }
 
 .main-banner .wrapper {
+    margin-top: 70px;
     width: 100%; /* Ocupa 100% da largura da tela */
     max-width: 640px; /* Largura máxima para manter a proporção original */
     text-align: center; /* Centraliza o texto */
-    margin: 0 auto; /* Centraliza horizontalmente */
+    /* margin: 0 auto; /* Centraliza horizontalmente */
     display: flex; /* Adicionando flexbox para centralização */
     flex-direction: column; /* Mantendo a direção em coluna */
     align-items: center; /* Centraliza os itens dentro do wrapper */
@@ -39,6 +45,18 @@
     width: 140px; /* Largura fixa para os botões */
     padding: 15px 10px;
     text-align: center;
+
+}
+
+.box .main-title  {
+
+    font-size: 25px;
+
+}
+
+.box .main-subtitle  {
+
+    font-size: 18px;
 }
 
 }
